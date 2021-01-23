@@ -8,7 +8,7 @@ RUN pip install wheel
 RUN pip install -r /botamusique/requirements.txt
 
 VOLUME "/mumble"
-VOLUME "/botamsique/config"
+VOLUME "/botamusique/config"
 
 EXPOSE 6502
 EXPOSE 64738
