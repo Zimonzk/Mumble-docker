@@ -5,7 +5,7 @@ ADD ./botamusique /botamusique
 ADD ./.git /.git
 
 RUN pip install wheel
-RUN pip install -r /bot/requirements.txt
+RUN pip install -r /botamusique/requirements.txt
 
 VOLUME "/mumble"
 VOLUME "/botamsique/config"
