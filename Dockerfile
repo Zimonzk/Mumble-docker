@@ -2,6 +2,7 @@ FROM python:3
 RUN apt-get update && apt-get install -y mumble-server ffmpeg
 
 ADD ./botamusique /bot
+ADD ./git/modules /.git/modules
 
 RUN pip install wheel
 RUN pip install -r /bot/requirements.txt
